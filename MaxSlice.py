@@ -46,7 +46,7 @@ def calculate(file_name):
 
 
 if __name__ == '__main__':
-    total, result = calculate('c_medium.in')
+    total, result = calculate('data/e_also_big.in')
     assert len(result) == len(set(result))
     print(total)
     print(result)
