@@ -9,4 +9,4 @@ def getTest(filename: str):
     S = np.array([int(i) for i in second.split()])
     return M, N, S
 
-print(getTest('a_example.in'))
+# print(getTest('a_example.in'))
